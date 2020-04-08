@@ -18,6 +18,7 @@ export PATH=$PATH:$LIB/gradle-6.2.2/bin
 #export PATH=$PATH:$LIB/node-v13.0.1-linux-x64/bin
 export PATH=$PATH:$HOME/.yarn/bin
 
+export PATH=$PATH:/usr/lib/dart/bin
 export PATH=$PATH:$LIB/flutter/bin
 
 export PATH=$PATH:$LIB/apache-maven-3.6.3/bin
@@ -34,10 +35,15 @@ export LAMPP=/opt/lampp
 export PATH=$PATH:$LAMPP
 export PATH=$PATH:$LAMPP/bin
 
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
+
 ## ALIAS
-export nvim=$HOME/.config/nvim
-alias perl=/usr/bin/perl
 alias edit=nvim
+export nvim=$HOME/.config/nvim
+
+alias npm=yarn
+alias perl=/usr/bin/perl
+
 alias git_log='git log --all --oneline --decorate --graph'
 
 alias dot_config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
