@@ -10,6 +10,7 @@ export PATH=$PATH:$LIB/go1.14/bin
 
 export PATH=$PATH:$LIB/dotnet3.1
 
+export ANDROID_HOME=/home/fadil/Android/Sdk
 export JAVA_HOME=/usr/local/lib/jdk1.8.0_241
 export PATH=$PATH:$JAVA_HOME/bin
 
