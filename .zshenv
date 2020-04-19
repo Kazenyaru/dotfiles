@@ -6,7 +6,12 @@ export PATH=$PATH:/usr/share/code
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/anaconda3/bin
 
-export PATH=$PATH:$LIB/go1.14/bin
+export GOROOT=/usr/lib/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=/mnt/c/FADIL/Code/Library/golib
+export PATH=$PATH:$GOPATH/bin
+export GOPATH=$GOPATH:/mnt/c/FADIL/Code/Belajar/GO
+export PATH=$PATH:/mnt/c/FADIL/Code/Belajar/GO/bin
 
 export PATH=$PATH:$LIB/dotnet3.1
 
@@ -20,6 +25,7 @@ export PATH=$PATH:$LIB/gradle-6.2.2/bin
 export PATH=$PATH:$HOME/.yarn/bin
 
 export PATH=$PATH:/usr/lib/dart/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
 export PATH=$PATH:$LIB/flutter/bin
 
 export PATH=$PATH:$LIB/apache-maven-3.6.3/bin
