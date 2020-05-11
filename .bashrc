@@ -157,3 +157,6 @@ unset __conda_setup
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/fadil/.sdkman"
 [[ -s "/home/fadil/.sdkman/bin/sdkman-init.sh" ]] && source "/home/fadil/.sdkman/bin/sdkman-init.sh"
+
+# added by travis gem
+[ ! -s /home/fadil/.travis/travis.sh ] || source /home/fadil/.travis/travis.sh

@@ -5,6 +5,10 @@ export LIB=/usr/local/lib
 export PATH=$PATH:/usr/share/code
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/anaconda3/bin
+export PATH=$PATH:/mnt/d/FADILJUGA/LINUXFADIL/Repos/appimage/
+
+export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.7.0/bin
 
 export GOROOT=/usr/lib/go
 export PATH=$PATH:$GOROOT/bin
@@ -64,3 +68,13 @@ function dot_checkout {
 }
 
 alias project=/mnt/c/FADIL/Code/Project
+echo '    1 allahumaina nasaluka salamatan viddin
+    2 wa afiatan fil jazad
+    3 wa ziadatan fil ilmi
+    4 wa barakatan fir rizki
+    5 wa tau batan koblal maut
+    6 warohmatan indal maut
+    7 wa magfirotan badal maut
+    8 allahuma hawin alaina fi sakarotin maut
+    9 wanajatan minnan nar
+    10 wa afwa indal hisab';
